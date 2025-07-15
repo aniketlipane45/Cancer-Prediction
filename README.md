@@ -17,23 +17,22 @@ The user can input 30 real-valued features from the breast cancer dataset and ge
 
 ## 📁 Project Structure
 
-```
-
+<pre>
 project/
-├── app.py                      # Flask backend
-├── train\_and\_save\_models.py    # Training script
-├── data.csv                    # Breast cancer dataset
-├── xgboost.pkl                 # Saved XGBoost model
-├── random\_forest.pkl           # Saved Random Forest model
-├── svm.pkl                     # Saved SVM model
+├── app.py                    # Flask backend
+├── train_and_save_models.py  # ML model training
+├── data.csv                  # Dataset
+├── xgboost.pkl               # Trained XGBoost model
+├── random_forest.pkl         # Trained Random Forest model
+├── svm.pkl                   # Trained SVM model
 │
 ├── templates/
-│   └── index.html              # Frontend form
+│   └── index.html            # Web form interface
 │
 └── static/
-└── style.css               # Optional CSS styling
+    └── style.css             # Optional styling
+</pre>
 
-````
 
 
 
